@@ -6,6 +6,17 @@
 
 <br />
 
+### Properties
+
+### **SimpleTree._seperator_ = "/"**
+
+> to change path style like "item**/**subitem" or "item**_**subitem" or "item**.**subitem"
+
+
+___
+
+<br />
+
 ### Functions
 
 ___
