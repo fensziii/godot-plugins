@@ -12,7 +12,7 @@ ___
 
 <br />
 
-### **FSTools._get_array_item_index(_`path`_)_**
+### **SimpleTree._get_array_item_index(_`path`_)_**
 
 + **path** = path to TreeItem
 
@@ -21,7 +21,7 @@ ___
 
 ```gdscript
 
-    var getSecondIndex = Tree.get_array_item_index("second")
+    var getSecondIndex = SimpleTree.get_array_item_index("second")
 
     print(getSecondIndex) # Result: 2
 
@@ -29,7 +29,7 @@ ___
 
 <br />
 
-### **FSTools._get_array_item(_`path`_)_**
+### **SimpleTree._get_array_item(_`path`_)_**
 
 + **path** = path to TreeItem
 
@@ -41,7 +41,7 @@ ___
 
 ```gdscript
 
-    var arraySecond = Tree.get_array_item("second")
+    var arraySecond = SimpleTree.get_array_item("second")
 
     print(arraySecond) # ["second", TreeItem, "MY_CUSTOM_DATA"]
 
@@ -49,14 +49,14 @@ ___
 
 <br />
 
-### **FSTools._set_root()_**
+### **SimpleTree._set_root()_**
 
 **return `TreeItem`**
 > returns the **root** TreeItem
 
 ```gdscript
 
-    var root = Tree.set_root()
+    var root = SimpleTree.set_root()
 
     root.set_text(0, "My Root")
 
@@ -66,7 +66,7 @@ ___
 
 <br />
 
-### **FSTools._set_item(_`path`_,_`data`_)_**
+### **SimpleTree._set_item(_`path`_,_`data`_)_**
 
 + **path** = path to TreeItem
 + **data** = add custom data
@@ -76,20 +76,20 @@ ___
 
 ```gdscript
 
-    var myItem1 = Tree.set_item("first")
+    var myItem1 = SimpleTree.set_item("first")
     myItem1.set_text(0, "My first Item")
 
-    var myItem2 = Tree.set_item("second")
+    var myItem2 = SimpleTree.set_item("second")
     myItem2.set_text(0, "My second Item")
 
-    var mySubItem1 = Tree.set_item("first/subitem1")
+    var mySubItem1 = SimpleTree.set_item("first/subitem1")
     mySubItem1.set_text(0, "sub Item 1")
 
 ```
 
 <br />
 
-### **FSTools._find_item(_`path`_)_**
+### **SimpleTree._find_item(_`path`_)_**
 
 + **path** = path to TreeItem
 
@@ -98,7 +98,7 @@ ___
 
 ```gdscript
 
-    var findSecond = Tree.find_item("second")
+    var findSecond = SimpleTree.find_item("second")
 
     print(findSecond) # Result: TreeItem
 
