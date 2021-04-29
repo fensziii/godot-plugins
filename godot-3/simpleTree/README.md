@@ -2,7 +2,7 @@
 
 
 **Info**
-> This is a Plugin for the Tree Node. Load it as **addon**
+> This is a Plugin for the Tree Node. Load it as **addon** and add the SimpleTree Node.
 
 <br />
 
