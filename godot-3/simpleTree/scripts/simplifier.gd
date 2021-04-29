@@ -11,16 +11,6 @@ func _ready() -> void:
 	_TREE = self
 
 
-#func get_project_data():
-#	var projectname = ProjectSettings.get_setting("application/config/name")
-#	var projecticop = ProjectSettings.get_setting("application/config/icon")
-#	
-#	return {
-#		"project_name" : projectname,
-#		"project_icon" : projecticop,
-#		"project_root" : "res://"
-#	}
-
 
 func get_array_item_index(path):
 	for i in range(items.size()):
