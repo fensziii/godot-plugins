@@ -10,7 +10,7 @@
 
 ### **SimpleTree._seperator_ = "/"**
 
-> to change path style like "item**/**subitem" or "item**_**subitem" or "item**.**subitem"
+> to change path style like "item/subitem" or "item_subitem" or "item.subitem"
 
 
 
