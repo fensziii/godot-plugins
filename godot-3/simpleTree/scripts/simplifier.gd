@@ -1,4 +1,3 @@
-tool
 extends Tree
 
 export var seperator : String = "/"
@@ -51,6 +50,7 @@ func set_item(path : String, spath = null):
 		return checkItem
 	return null
 
+# this is a part of "set_item"
 func _remove_last(arr):
 	if arr.size() > 1:
 		arr.remove(arr.size() - 1)
@@ -73,6 +73,7 @@ func find_item(path):
 		_recursive_find_item(root.get_children(), path, found)
 	return found[0] if found.size() == 1 else null
 
+# this is a part of "find_item"
 func _recursive_find_item(item, curr_path, found = []):
 	while(item != null):
 		if item.get_meta("type_path") == curr_path:
